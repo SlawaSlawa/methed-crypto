@@ -18,21 +18,3 @@ const tabsAboutUs = () => {
 }
 
 export default tabsAboutUs
-
-
-// const advantageButtons = document.querySelectorAll('.advantage__button')
-//     const advantageItemsContents = document.querySelectorAll('.advantage__item-content')
-
-//     advantageButtons.forEach((btn, index) => {
-//         btn.addEventListener('click', () => {
-//             advantageItemsContents.forEach((content, j) => {
-//                 if (index === j) {
-//                     advantageButtons[index].classList.add('advantage__button_active')
-//                     advantageItemsContents[index].classList.add('advantage__item-content_active')
-//                 } else {
-//                     advantageButtons[index].classList.remove('advantage__button_active')
-//                     advantageItemsContents[index].classList.remove('advantage__item-content_active')
-//                 }
-//             })
-//         })
-//     })
